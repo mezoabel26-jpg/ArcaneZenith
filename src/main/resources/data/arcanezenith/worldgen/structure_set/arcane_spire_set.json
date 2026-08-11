@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arcanezenith:arcane_spire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "salt": 394857923
+  }
+}

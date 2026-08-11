@@ -1,0 +1,19 @@
+{
+  "targets": [ "swap" ],
+  "passes": [
+    {
+      "name": "arcanezenith:lightning_flash",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        { "name": "FlashStrength", "values": [0.0] },
+        { "name": "EdgeDark",      "values": [0.0] }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

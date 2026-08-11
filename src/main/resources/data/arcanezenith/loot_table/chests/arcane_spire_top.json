@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanezenith:arcane_shard",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanezenith:astralit_crystal",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanezenith:void_quartz",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanezenith:etherium_shard",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanezenith:spell_scroll",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

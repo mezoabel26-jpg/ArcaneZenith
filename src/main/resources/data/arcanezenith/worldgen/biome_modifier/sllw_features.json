@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "arcanezenith:shattered_ley_line_wastes",
+  "features": [
+    "arcanezenith:arcane_crystal_cluster",
+    "arcanezenith:floating_rocks"
+  ],
+  "step": "vegetal_decoration"
+}

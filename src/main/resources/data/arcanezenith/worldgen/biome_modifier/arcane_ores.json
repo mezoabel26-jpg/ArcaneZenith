@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "arcanezenith:astralit_ore",
+    "arcanezenith:void_quartz_ore",
+    "arcanezenith:etherium_crystal_ore"
+  ],
+  "step": "underground_ores"
+}

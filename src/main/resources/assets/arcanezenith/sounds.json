@@ -1,0 +1,18 @@
+{
+  "arcane_bolt_cast": {
+    "sounds": [{"name": "minecraft:block.amethyst_block.chime", "type": "event"}],
+    "subtitle": "arcanezenith.subtitle.arcane_bolt_cast"
+  },
+  "arcane_bolt_impact": {
+    "sounds": [{"name": "minecraft:block.glass.break", "type": "event"}],
+    "subtitle": "arcanezenith.subtitle.arcane_bolt_impact"
+  },
+  "teleport_dash": {
+    "sounds": [{"name": "minecraft:entity.enderman.teleport", "type": "event"}],
+    "subtitle": "arcanezenith.subtitle.teleport"
+  },
+  "teleport_arrive": {
+    "sounds": [{"name": "minecraft:entity.enderman.teleport", "type": "event"}],
+    "subtitle": "arcanezenith.subtitle.teleport"
+  }
+}

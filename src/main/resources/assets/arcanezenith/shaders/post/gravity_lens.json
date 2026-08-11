@@ -1,0 +1,21 @@
+{
+  "targets": ["swap"],
+  "passes": [
+    {
+      "name": "arcanezenith:gravity_lens",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        { "name": "Center",      "values": [0.5, 0.5] },
+        { "name": "Strength",    "values": [0.08] },
+        { "name": "EventRadius", "values": [0.05] },
+        { "name": "Time",        "values": [0.0] }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

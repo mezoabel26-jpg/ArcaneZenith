@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "arcanezenith:ignis_pyrite_ore"
+  ],
+  "step": "underground_ores"
+}

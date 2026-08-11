@@ -1,0 +1,19 @@
+{
+  "targets": ["swap"],
+  "passes": [
+    {
+      "name": "arcanezenith:time_stop",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        { "name": "Desaturation", "values": [0.0] },
+        { "name": "Aberration",   "values": [0.0] }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

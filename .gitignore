@@ -1,0 +1,24 @@
+# Build outputs
+build/
+out/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# NeoForge run directories
+run/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

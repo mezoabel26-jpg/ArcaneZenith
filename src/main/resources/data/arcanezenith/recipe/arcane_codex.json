@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "B": { "item": "minecraft:book" }
+  },
+  "result": {
+    "id": "arcanezenith:arcane_codex",
+    "count": 1
+  }
+}

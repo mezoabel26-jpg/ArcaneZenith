@@ -1,0 +1,21 @@
+{
+  "targets": ["swap"],
+  "passes": [
+    {
+      "name": "arcanezenith:dark_fantasy",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        { "name": "Intensity",        "values": [0.0]  },
+        { "name": "Time",             "values": [0.0]  },
+        { "name": "Contrast",         "values": [1.25] },
+        { "name": "Saturation",       "values": [0.78] },
+        { "name": "VignetteStrength", "values": [1.1]  },
+        { "name": "GrainStrength",    "values": [0.028]},
+        { "name": "ChromaticAb",      "values": [1.0]  },
+        { "name": "ColorStyle",       "values": [0.0]  }
+      ]
+    },
+    { "name": "blit", "intarget": "swap", "outtarget": "minecraft:main" }
+  ]
+}

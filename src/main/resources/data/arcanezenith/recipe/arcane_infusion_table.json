@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "B": {"item": "minecraft:gold_ingot"},
+    "C": {"item": "minecraft:enchanting_table"},
+    "D": {"item": "minecraft:obsidian"}
+  },
+  "result": {
+    "id": "arcanezenith:arcane_infusion_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_structure_sets",
+  "structure_sets": [
+    "arcanezenith:arcane_spire_set"
+  ]
+}
